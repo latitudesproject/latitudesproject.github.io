@@ -38,6 +38,16 @@ li {
     font-size: 2em;
 }
 
+a:link {
+  color:black;
+}
+a:visited {
+  color:black;
+}
+a:hover {
+  color: #ccc;
+}
+
 .home {
   color: black;
   font-family: FranklinGothicHeavy;
@@ -112,6 +122,45 @@ a.menu:hover {
   vertical-align: middle;
   padding-bottom: 20px;
 }
+
+
+/** FOOTER **/
+footer {
+  padding-top: 50px;
+}
+
+h1.acknowledgements {
+  color: black;
+  font-family: FranklinGothicHeavy;
+  text-align: center;
+  margin-bottom: 5px;
+}
+p.acknowledgements {
+  margin-top: 5px;
+  color: black;
+  font-family: CourierNew;
+  text-align: center;
+}
+
+p.acknowledgements-list {
+  font-family: FranklinGothicBook;
+  text-align: center;
+  font-size: 30px;
+  margin: 5px;
+}
+a.acknowledgements-list {
+  text-decoration: none;
+}
+a.acknowledgements-list:link {
+  color:#bbb;
+}
+a.acknowledgements-list:visited {
+  color:#bbb;
+}
+a.acknowledgements-list:hover {
+  color: #ccc;
+}
+
 </style>
 </head>
 <body>
@@ -119,9 +168,9 @@ a.menu:hover {
 <div class="header">
 <ul>
   <li display="inline" class="home menu"><a href="index.html" class="menu">LATITUDES</a></li>
+  <li display="inline"><a href="subscribe.html" class="menu">Subscribe</a></li>
   <li display="inline"><a href="about.html" class="menu">About</a></li>
   <li display="inline"><a href="contact.html" class="menu">Contact</a></li>
-  <li display="inline"><a href="trailhead.html" class="menu">Trailhead</a></li>
 </ul>
 
   <p class="header_p">
@@ -132,6 +181,15 @@ a.menu:hover {
 </div>
 
 
+<div>
+
+<p class="header_p">
+    Latitudes launches June 2018. 
+    <a href="subscribe.html">Learn when we hit the road.</a> 
+  </p>
+  
+</div>
+
 
 
 <button id="first" class="accordion active">41.40338N, 2.17403E</button>
@@ -141,11 +199,14 @@ a.menu:hover {
   </div>
   <div class="panel_body" style="display: inline-block">
      <p>
-      1 Two women watched us as we taped. <br />
-      2 There are not many grocery stores in Ebbing. <br />
+      15 seconds from the Boston T to Porter Square. <br/><br/><br/>
+
+      1 On Sunday morning the car is only half full. <br />
+      2 The passengers are silence, the train is noise. <br />
     </p>
   </div>
 </div>
+
 
 <button class="accordion">59.408N, 40.17403E </button>
 
@@ -195,6 +256,21 @@ for (i = 0; i < acc.length; i++) {
     });
 }
 </script>
+
+
+
+<footer>
+<div class="acknowledgements">
+<h1 class="acknowledgements">Acknowledgments</h1>
+<p class="acknowledgements">So many thanks. We couldn't bike this without you.</p>
+
+<p class="acknowledgements-list">
+  <a href="https://tannusamerica.com/" class="acknowledgements-list">Tannus</a><br/>
+  <a href="https://www.planetbike.com/" class="acknowledgements-list">Planet Bike</a><br/>
+  <a href="http://www.haiku.bike/" class="acknowledgements-list">Haiku</a><br/>
+</p>
+
+</footer>
 
 </body>
 
