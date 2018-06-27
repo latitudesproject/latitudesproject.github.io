@@ -307,6 +307,15 @@ Fieldnotes <br>
 </div>
 
 <script>
+var icon_height = 12.0
+var icon = L.icon({
+    iconUrl: 'favicon.ico',
+
+    iconSize:     [icon_height, icon_height], // size of the icon
+    iconAnchor:   [icon_height / 2, icon_height / 2], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
+});
+
 var acc = document.getElementsByClassName("accordion");
 var i;
 

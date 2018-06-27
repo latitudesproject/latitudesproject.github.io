@@ -1,8 +1,23 @@
-var mymap = L.map('mapid').setView([39.8, -98.56], 4);
-
-L.tileLayer('http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {
-         attribution: '©OpenStreetMap, ©CartoDB'}).addTo(mymap);
-
-L.marker([44.017997, -124.130629]).addTo(mymap).bindPopup('<a href="http://latitudes.bandcamp.com/track/45-34-14-n-123-57-44-w"> 17-Jun</a>');
-L.marker([44.1185, -123.3214]).addTo(mymap).bindPopup('<a href="http://latitudes.bandcamp.com/track/441185-n-1233214-w"> 18-Jun</a>');
-L.polygon([[44.017997, -124.130629], [44.1185, -123.3214]], {color: 'grey'}).addTo(mymap);
+var mymap = L.map('mapid').setView([39.8, -98.56], 4); 
+L.tileLayer('http://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png', {     attribution: '©OpenStreetMap, ©CartoDB'}).addTo(mymap); 
+L.marker([44.017997, -124.130629], {icon: icon}).addTo(mymap).bindPopup('<a href="http://latitudes.bandcamp.com/track/45-34-14-n-123-57-44-w"> 17-Jun</a>'); 
+L.marker([44.1185, -123.3214], {icon: icon}).addTo(mymap).bindPopup('<a href="http://latitudes.bandcamp.com/track/441185-n-1233214-w"> 18-Jun</a>'); 
+L.polygon([[44.017997, -124.130629], [44.1185, -123.3214]], {color: 'grey'}).addTo(mymap); 
+L.marker([44.053734, -123.063113], {icon: icon}).addTo(mymap).bindPopup('<a href="https://latitudes.bandcamp.com/track/44-2-464496-n-123-1-193044-w"> 19-Jun</a>'); 
+L.polygon([[44.1185, -123.3214], [44.053734, -123.063113]], {color: 'grey'}).addTo(mymap); 
+L.marker([44.260553, -121.801236], {icon: icon}).addTo(mymap).bindPopup('<a href="https://latitudes.bandcamp.com/track/44-15-35424-n-121-48-351792-w"> 20-Jun</a>'); 
+L.polygon([[44.053734, -123.063113], [44.260553, -121.801236]], {color: 'grey'}).addTo(mymap); 
+L.marker([44.302534, -120.857175], {icon: icon}).addTo(mymap).bindPopup('<a href="https://latitudes.bandcamp.com/track/44-15-35424-n-121-48-351792-w-2"> 21-Jun</a>'); 
+L.polygon([[44.260553, -121.801236], [44.302534, -120.857175]], {color: 'grey'}).addTo(mymap); 
+L.marker([44.436, -120.3498], {icon: icon}).addTo(mymap).bindPopup('<a href="https://latitudes.bandcamp.com/track/44-26-66588-n-120-20-84732-w"> 22-Jun</a>'); 
+L.polygon([[44.302534, -120.857175], [44.436, -120.3498]], {color: 'grey'}).addTo(mymap); 
+L.marker([44.52748, -119.633441], {icon: icon}).addTo(mymap).bindPopup('<a href="https://latitudes.bandcamp.com/track/44-32-403908-n-119-37-550704-w"> 23-Jun</a>'); 
+L.polygon([[44.436, -120.3498], [44.52748, -119.633441]], {color: 'grey'}).addTo(mymap); 
+L.marker([44.420326, -118.960503], {icon: icon}).addTo(mymap).bindPopup('<a href="https://latitudes.bandcamp.com/track/44-24-575568-n-118-57-10836-w"> 24-Jun</a>'); 
+L.polygon([[44.52748, -119.633441], [44.420326, -118.960503]], {color: 'grey'}).addTo(mymap); 
+L.marker([44.463213, -118.709948], {icon: icon}).addTo(mymap).bindPopup('<a href="https://latitudes.bandcamp.com/track/44-27-475668-n-118-42-358128-w"> 25-Jun</a>'); 
+L.polygon([[44.420326, -118.960503], [44.463213, -118.709948]], {color: 'grey'}).addTo(mymap); 
+L.marker([44.77551, -117.831334], {icon: icon}).addTo(mymap).bindPopup('<a href="https://latitudes.bandcamp.com/track/44-46-2955-n-117-50-3786-w"> 26-Jun</a>'); 
+L.polygon([[44.463213, -118.709948], [44.77551, -117.831334]], {color: 'grey'}).addTo(mymap); 
+L.marker([44.76899, -117.167627], {icon: icon}).addTo(mymap).bindPopup('<a href="https://latitudes.bandcamp.com/track/44-46-858-n-117-10-66396-w"> 27-Jun</a>'); 
+L.polygon([[44.77551, -117.831334], [44.76899, -117.167627]], {color: 'grey'}).addTo(mymap); 
