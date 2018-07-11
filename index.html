@@ -183,7 +183,6 @@ a.acknowledgements-list:hover {
   </p>
 </div>
 
-
 <div>
 
 <p class="header_p">
@@ -316,25 +315,25 @@ var icon = L.icon({
     popupAnchor:  [0, 0] // point from which the popup should open relative to the iconAnchor
 });
 
-var acc = document.getElementsByClassName("accordion");
-var i;
+// var acc = document.getElementsByClassName("accordion");
+// var i;
 
-var first_panel = document.getElementById("first").nextElementSibling;
-first_panel.style.display = "block";
+// var first_panel = document.getElementById("first").nextElementSibling;
+// first_panel.style.display = "block";
 
 
-for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        console.log(this.style)
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-            panel.style.display = "none";
-        } else {
-            panel.style.display = "block";
-        }
-    });
-}
+// for (i = 0; i < acc.length; i++) {
+//     acc[i].addEventListener("click", function() {
+//         this.classList.toggle("active");
+//         console.log(this.style)
+//         var panel = this.nextElementSibling;
+//         if (panel.style.display === "block") {
+//             panel.style.display = "none";
+//         } else {
+//             panel.style.display = "block";
+//         }
+//     });
+// }
 </script>
 
 <script src="wob_map.js"></script>
